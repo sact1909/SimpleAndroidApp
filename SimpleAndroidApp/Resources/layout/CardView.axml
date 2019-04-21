@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:cardview="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:padding="10dp"
+	android:background="#ffe0e0e0">
+	<android.support.v7.widget.CardView
+		android:layout_width="fill_parent"
+		android:layout_height="68dp"
+		android:layout_gravity="center_horizontal"
+		cardview:cardElevation="4dp"
+		cardview:cardCornerRadius="5dp">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:id="@+id/linearLayout1">
+
+			
+
+			<TextView
+				android:text="txtDescripcion"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/txtDescripcion"
+				android:textColor="@android:color/background_dark"
+				android:textStyle="bold"
+				android:textSize="18dp" />
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:background="#ffe0e0e0" />
+
+			<TextView
+				android:text="txtCapitulo"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/txtCapitulo" />
+			<TextView
+				android:text="txtVersiculo"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/txtVersiculos" />
+		</LinearLayout>
+	</android.support.v7.widget.CardView>
+	
+
+</LinearLayout>
